@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7d4938c-0495-4b11-ac95-de126d9302d5" name="Changes" comment="Cleanup">
+      <change afterPath="$PROJECT_DIR$/.idea/myWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BibFfD9tSJeXHKFwOmH4Bkuu5a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/karim/IdeaProjects/myWebsite/react-frontend"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7d4938c-0495-4b11-ac95-de126d9302d5" name="Changes" comment="" />
+      <created>1657391750827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657391750827</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Cleanup">
+      <created>1657391868121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657391868121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+  </component>
+</project>
