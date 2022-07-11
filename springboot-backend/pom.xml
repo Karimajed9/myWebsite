@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>karim.majed</groupId>
-	<artifactId>myWebsite</artifactId>
+	<artifactId>springboot-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>myWebsite</name>
-	<description>My Website</description>
+	<name>springboot-backend</name>
+	<description>My Website - backend</description>
 	<properties>
 		<java.version>18</java.version>
 	</properties>
