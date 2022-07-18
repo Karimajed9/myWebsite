@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d4938c-0495-4b11-ac95-de126d9302d5" name="Changes" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/react-frontend/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-frontend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-frontend/.idea/react-frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/components/CreateEmployeeComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/components/FooterComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/components/HeaderComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/components/ListEmployeeComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/components/ViewEmployeeComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-frontend/src/services/EmployeeService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-backend/src/main/java/karim/majed/myWebsite/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-backend/src/main/java/karim/majed/myWebsite/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +42,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/karim/IdeaProjects/myWebsite/react-frontend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karim/IdeaProjects/myWebsite/springboot-backend&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657391868121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleanup">
+      <created>1657502254548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657502254548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
