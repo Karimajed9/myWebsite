@@ -1,12 +1,11 @@
 package karim.majed.myWebsite.repository;
 
-import karim.majed.myWebsite.model.Employee;
+import karim.majed.myWebsite.model.Education;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-
+public interface EducationRepository extends JpaRepository<Education, Long> {
 
 }
