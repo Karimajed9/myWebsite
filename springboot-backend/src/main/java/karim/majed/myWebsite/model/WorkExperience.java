@@ -2,7 +2,7 @@ package karim.majed.myWebsite.model;
 
 import javax.persistence.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "workExperience")
@@ -16,10 +16,10 @@ public class WorkExperience {
     private String companyName;
 
     @Column(name = "start_date")
-    private Date startDate;
+    private LocalDate startDate;
 
     @Column(name = "end_date")
-    private Date endDate;
+    private LocalDate endDate;
 
     @Column(name = "description")
     private String description;
@@ -28,11 +28,12 @@ public class WorkExperience {
 
     }
 
-    public WorkExperience(String companyName, Date startDate, Date endDate) {
+    public WorkExperience(String companyName, LocalDate startDate, LocalDate endDate, String description) {
         super();
         this.companyName = companyName;
         this.startDate = startDate;
         this.endDate = endDate;
+        this.description = description;
     }
 
     public long getId() {
@@ -51,19 +52,19 @@ public class WorkExperience {
         this.companyName = companyName;
     }
 
-    public Date getStartDate() {
+    public LocalDate getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public LocalDate getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 

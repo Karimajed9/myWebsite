@@ -2,7 +2,7 @@ package karim.majed.myWebsite.model;
 
 import javax.persistence.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "personalDetails")
@@ -28,7 +28,7 @@ public class PersonalDetails {
     private Long phoneNumber;
 
     @Column(name = "date_of_birth")
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
 
     @Column(name = "description")
     private String description;
@@ -40,7 +40,7 @@ public class PersonalDetails {
 
     }
 
-    public PersonalDetails(String firstName, String lastName, String emailId, String address, Long phoneNumber, Date dateOfBirth, String description, String image) {
+    public PersonalDetails(String firstName, String lastName, String emailId, String address, Long phoneNumber, LocalDate dateOfBirth, String description, String image) {
         super();
         this.firstName = firstName;
         this.lastName = lastName;
@@ -80,9 +80,9 @@ public class PersonalDetails {
 
     public void setPhoneNumber(Long phoneNumber) { this.phoneNumber = phoneNumber; }
 
-    public Date getDateOfBirth() { return dateOfBirth; }
+    public LocalDate getDateOfBirth() { return dateOfBirth; }
 
-    public void setDateOfBirth(Date dateOfBirth) { this.dateOfBirth = dateOfBirth; }
+    public void setDateOfBirth(LocalDate dateOfBirth) { this.dateOfBirth = dateOfBirth; }
 
     public String getDescription() { return description; }
 

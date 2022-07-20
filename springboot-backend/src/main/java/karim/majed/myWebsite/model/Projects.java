@@ -1,7 +1,8 @@
 package karim.majed.myWebsite.model;
 
 import javax.persistence.*;
-import java.util.Date;
+
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "projects")
@@ -15,7 +16,7 @@ public class Projects {
     private String projectName;
 
     @Column(name = "date")
-    private Date date;
+    private LocalDate date;
 
     @Column(name = "description")
     private String description;
@@ -27,7 +28,7 @@ public class Projects {
 
     }
 
-    public Projects(String projectName, Date date, String description, String link) {
+    public Projects(String projectName, LocalDate date, String description, String link) {
         super();
         this.projectName = projectName;
         this.date = date;
@@ -51,11 +52,11 @@ public class Projects {
         this.projectName = projectName;
     }
 
-    public Date getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 
