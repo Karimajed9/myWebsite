@@ -18,6 +18,9 @@ const SideBarComponent = () => {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSideBar} />
           </Link>
+          <Link to='/admin' className='menu-bars'>
+            <AiIcons.AiOutlineLogin />
+          </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSideBar}>

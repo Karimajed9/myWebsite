@@ -4,11 +4,11 @@ const TOOLS_API_BASE_URL = "http://localhost:8080/api/v1/tools";
 
 class ToolsService {
 
-    getTools() {
+    getAllTools() {
         return axios.get(TOOLS_API_BASE_URL);
     }
 
-    createTool(tool) {
+    addTool(tool) {
         return axios.post(TOOLS_API_BASE_URL, tool);
     }
 

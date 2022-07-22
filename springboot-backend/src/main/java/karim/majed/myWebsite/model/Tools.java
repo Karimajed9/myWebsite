@@ -10,7 +10,7 @@ public class Tools {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "toolName")
+    @Column(name = "tool_name")
     private String toolName;
 
     @Column(name = "proficiency")
