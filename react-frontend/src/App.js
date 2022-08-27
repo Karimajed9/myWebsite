@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import MainPageComponent from './components/MainPageComponent';
 
-import ViewAdminPageComponent from './components/admin/ViewAdminPageComponent'
+import LoginAdminPageComponent from './components/admin/LoginAdminPageComponent'
 
 import FooterComponent from './components/Structure/FooterComponent';
 import SideBarComponent from './components/SideBar/SideBarComponent'
@@ -25,6 +25,13 @@ import ListToolsComponent from './components/Tools/ListToolsComponent';
 import CreateOrUpdateToolsComponent from './components/Tools/CreateOrUpdateToolsComponent'
 import ViewToolsComponent from './components/Tools/ViewToolComponent';
 
+const documentHeight = () => {
+  const doc = document.documentElement
+  doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+ }
+ window.addEventListener("resize", documentHeight)
+ documentHeight()
+
 function App() {
   return (
     <div>
@@ -36,7 +43,7 @@ function App() {
               <Route path = '/' exact element = {<MainPageComponent/>} />
               <Route path = '/home' element = {<MainPageComponent/>} />
 
-              <Route path = '/admin' element = {<ViewAdminPageComponent/>} />
+              <Route path = '/admin' element = {<LoginAdminPageComponent/>} />
 
               <Route path = '/workExperience' element = {<ListWorkExperienceComponent/>} />
               <Route path = '/add-workExperience/:id' element = {<CreateOrUpdateWorkExperienceComponent/>} />
